@@ -10,7 +10,8 @@ public class CameraMovement : MonoBehaviour
 
 
     // camera
-    public float camSpeed = -0.5f;
+    [SerializeField] protected float camSpeed = -0.5f;
+    
     protected float x;
     protected float y;
     protected Vector3 rotateValue;

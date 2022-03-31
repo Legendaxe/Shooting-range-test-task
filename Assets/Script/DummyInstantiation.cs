@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class DummyInstantiation : MonoBehaviour
 {
-    public GameObject[] dummies = new GameObject[4];
+    [SerializeField] protected GameObject[] dummies = new GameObject[4];
 
-    public int dummyMinimum; // minimum number of whole targets
-    public float distance;
+    [SerializeField] protected int dummyMinimum; // minimum number of whole targets
+    [SerializeField] protected float distance;
+
+    protected Vector3 Location;
 
     [HideInInspector]
     public static int dummyQuantity; // amount of brand-new dummy
-    public Vector3 Location;
 
     void Start()
     {
@@ -22,12 +23,14 @@ public class DummyInstantiation : MonoBehaviour
         if (dummyQuantity < dummyMinimum) CreateField(); // if we haven't enough brand-new dummy, we replenish the field
     }
 
-    protected void CreateField() // procedure for creating 16-24(random) dummies
+    protected void CreateField() // procedure for creating dummyMinimum-dummyMinimum+4(random) dummies
     {
-        for (int i = 0; i < dummies.Length; i++)
+        int quantity;
+        int N = dummies.Length;
+        int temp = dummyMinimum/N; // for random limits;
+        for (int i = 0; i < N; i++)
         {
-            int quantity;
-            quantity = Random.Range(4, 6);
+            quantity = Random.Range(temp, temp+4);
             for (int j = 0; j < quantity; j++)
             {
                 CreateDummy(dummies[i]);

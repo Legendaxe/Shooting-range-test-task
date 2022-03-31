@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    public float timerEtalon; // lifetime of projectile 
-    public float explosionPower; 
-    public float annihilationRadius; 
-    public float shockwaveRadius;
+    [SerializeField] protected float timerEtalon; // lifetime of projectile 
+    [SerializeField]  protected float explosionPower;
+    [SerializeField]  protected float annihilationRadius;
+    [SerializeField]  protected float shockwaveRadius;
 
     protected float timer; 
 

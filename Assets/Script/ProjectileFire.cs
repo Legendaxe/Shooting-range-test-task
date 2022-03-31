@@ -6,11 +6,11 @@ public class ProjectileFire : MonoBehaviour
 {
     protected ShootButton shootButton;
 
-    public Rigidbody projectileCube; 
-    public Rigidbody projectileSphere;
+    [SerializeField] protected  Rigidbody projectileCube; 
+    [SerializeField] protected  Rigidbody projectileSphere;
 
-    public float speed; // speed of projectile
-    public float delayEtalon; // delay before firing
+    [SerializeField] protected  float speed; // speed of projectile
+    [SerializeField] protected  float delayEtalon; // delay before firing
 
     protected int projType;
     protected float delay;
