@@ -105,9 +105,9 @@ Rigidbody:
   m_GameObject: {fileID: 2105221603986148391}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: Infinity
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -224,7 +224,7 @@ Rigidbody:
   m_GameObject: {fileID: 3571948475215579907}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: Infinity
   m_AngularDrag: 0.05
   m_UseGravity: 0
   m_IsKinematic: 0
@@ -336,9 +336,9 @@ Rigidbody:
   m_GameObject: {fileID: 3670855694742427292}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: Infinity
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -448,9 +448,9 @@ Rigidbody:
   m_GameObject: {fileID: 4827719614740060928}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: Infinity
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -560,9 +560,9 @@ Rigidbody:
   m_GameObject: {fileID: 5410986078088851448}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: Infinity
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -672,9 +672,9 @@ Rigidbody:
   m_GameObject: {fileID: 5489963907866023689}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: Infinity
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -784,9 +784,9 @@ Rigidbody:
   m_GameObject: {fileID: 5536754384457393967}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: Infinity
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -896,9 +896,9 @@ Rigidbody:
   m_GameObject: {fileID: 7950682293659698909}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: Infinity
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0

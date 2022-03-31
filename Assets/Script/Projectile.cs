@@ -42,6 +42,7 @@ public class Projectile : MonoBehaviour
                 else
                 {
                     hitted.useGravity = true;
+                    hitted.drag = 0;
                     hitted.AddExplosionForce(explosionPower, explosionPos, shockwaveRadius, 2.0f);
                     Destroy(hit.gameObject, 10);
                 }

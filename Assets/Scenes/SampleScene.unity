@@ -636,9 +636,8 @@ MonoBehaviour:
   - {fileID: 3124158919249046185, guid: dedec59f86050564c9a2c01964c6fb85, type: 3}
   - {fileID: 7552411501112447099, guid: 7fd994a3f6b040645adce6ef18dbf638, type: 3}
   - {fileID: 2931825333242624654, guid: cb102fdb66894534fb8a90166e5221b7, type: 3}
-  dummyMinimum: 6
+  dummyMinimum: 15
   distance: 13
-  Location: {x: 0, y: 0, z: 0}
 --- !u!1 &1529080222
 GameObject:
   m_ObjectHideFlags: 0

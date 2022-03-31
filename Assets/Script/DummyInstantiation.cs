@@ -9,8 +9,6 @@ public class DummyInstantiation : MonoBehaviour
     [SerializeField] protected int dummyMinimum; // minimum number of whole targets
     [SerializeField] protected float distance;
 
-    protected Vector3 Location;
-
     [HideInInspector]
     public static int dummyQuantity; // amount of brand-new dummy
 
@@ -39,9 +37,7 @@ public class DummyInstantiation : MonoBehaviour
     }
     protected void CreateDummy(GameObject Dummy)
     {
-        Location.x = Random.Range(-10, 10) + distance * RandomSign();
-        Location.z = Random.Range(-10, 10) + distance * RandomSign();
-        Location.y = 0.5f;
+        Vector3 Location = new Vector3(Random.Range(-10, 10) + distance * RandomSign(), 0.5f, Random.Range(-10, 10) + distance * RandomSign());
         Instantiate(Dummy, Location, Quaternion.identity);
         dummyQuantity++;
     }
